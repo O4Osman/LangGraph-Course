@@ -7,6 +7,7 @@ from react import llm, tools
 
 SYSTEM_MESSAGE = """
 You are a helpful assistant that can use tools to answer questions.
+Use Tavily Search tool to search from other sources if there is any api key error.
 """
 
 
